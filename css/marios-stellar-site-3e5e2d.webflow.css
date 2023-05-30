@@ -1,0 +1,270 @@
+.matrix-animation_component {
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.heading-xxl {
+  color: #fbf9fc;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.bg-circle {
+  z-index: -1;
+  width: 150%;
+  height: 150%;
+  opacity: .6;
+  filter: blur(30px);
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.margin-bottom {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-bottom.margin-large {
+  margin-bottom: 3rem;
+}
+
+.button-6 {
+  color: #fff;
+  text-align: center;
+  background-color: #ff7676;
+  border-radius: 100rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-weight: 400;
+  transition-property: none;
+}
+
+.button-6:hover {
+  opacity: .8;
+}
+
+.page-wrapper {
+  overflow: hidden;
+}
+
+.matrix-text_component {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.container-large {
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.global-styles {
+  display: block;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.page-padding {
+  z-index: 1;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  position: relative;
+}
+
+.text-size-medium {
+  color: #fbf9fc;
+  font-size: 1.25rem;
+}
+
+.main-wrapper {
+  height: 100vh;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  align-items: stretch;
+  display: grid;
+}
+
+.section_tip {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.body {
+  background-color: #000;
+}
+
+.utility-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.utility-page-content {
+  width: 260px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.heading {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.link-block {
+  color: #ff7676;
+  margin: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  text-decoration: none;
+  transition: transform .35s;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.link-block:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.tm {
+  padding-left: 2px;
+  font-family: Montserrat, sans-serif;
+  font-size: .8em;
+}
+
+.subscript {
+  font-size: .6em;
+}
+
+@media screen and (min-width: 1920px) {
+  .bg-circle {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .matrix-text_component {
+    display: flex;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .margin-bottom {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .button-6 {
+    white-space: nowrap;
+  }
+
+  .logo {
+    position: fixed;
+    top: .75em;
+    bottom: auto;
+    left: .75em;
+    right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-xxl {
+    font-size: 4rem;
+  }
+
+  .margin-bottom {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .page-padding {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .main-wrapper {
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .section_tip {
+    align-items: center;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .margin-bottom {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .page-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .text-size-medium {
+    font-size: 1rem;
+  }
+
+  .section_tip {
+    overflow: visible;
+  }
+
+  .logo.tippy {
+    font-size: 1.5em;
+    left: auto;
+  }
+
+  #w-node-_2a0a4b80-65d8-f32e-5337-743190c6f2fa-c90668ae {
+    justify-self: center;
+  }
+}
+
+
